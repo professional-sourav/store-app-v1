@@ -5,7 +5,7 @@ import './Cart.css'
 const Cart = (navCart: NavCart) => {
   return (
     <div className="cart">
-      <span>{navCart.items} Items / ${navCart.total}</span>
+      <span>{navCart.items?.length ?? 0} Items / ${navCart.total}</span>
     </div>
   )
 }

@@ -1,4 +1,6 @@
+import { Product } from "./Product"
+
 export type NavCart = {
-    items: number,
+    items?: Product[],
     total: number
 }
