@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavCart } from "../../types/Cart";
 import './Cart.css'
 
